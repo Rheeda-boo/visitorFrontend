@@ -1,19 +1,19 @@
 <template>
-  <GuestSignIn/>
-  <!-- <LandingPage/> -->
+  <!-- <GuestSignIn/> -->
+  <LandingPage/>
   
 </template>
 
 <script>
-import GuestSignIn from './Pages/GuestSignIn.vue'
-// import LandingPage from './Pages/LandingPage.vue'
+// import GuestSignIn from './Pages/GuestSignIn.vue'
+import LandingPage from './Pages/LandingPage.vue'
 
 
 export default {
   name: 'App',
   components: {
-    GuestSignIn
-    // LandingPage
+    // GuestSignIn
+    LandingPage
   }
 }
 </script>
