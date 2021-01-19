@@ -1,10 +1,18 @@
 <template>
     <nav class = "menu">
       <ul>
-        <li class = "menulist">Home</li>
-        <li class = "menulist">Sign In As</li>
-        <li class = "menulist">About us</li>
-        <li class = "menulist">Contact Us</li>
+        <li class = "menulist">
+          <router-link to="/">Home</router-link>
+        </li>
+        <li class = "menulist">
+          <router-link to="/guestsignin">Sign In As</router-link>
+        </li>
+        <li class = "menulist">
+          <router-link to="#">About us</router-link>
+        </li>
+        <li class = "menulist">
+          <router-link to="#">Contact Us</router-link>
+        </li>
         
       </ul>
     </nav>

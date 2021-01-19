@@ -1,18 +1,15 @@
 <template>
-  <GuestSignIn/>
-  <!-- <LandingPage/> -->
-  
+  <div>
+    <router-view/> 
+  </div>
 </template>
 
 <script>
-import GuestSignIn from './Pages/GuestSignIn.vue'
-// import LandingPage from './Pages/LandingPage.vue'
-
+// import LandingPage from './Pages/LandingPage'
 
 export default {
   name: 'App',
   components: {
-    GuestSignIn
     // LandingPage
   }
 }
